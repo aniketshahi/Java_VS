@@ -25,8 +25,7 @@ public class Varargs {
                System.out.println("The sum of a and b is:"+ sum(1,2));
                System.out.println("The sum of a,b and c is:"+ sum(1,2,3));
                System.out.println("The sum of a,b,c and d is:"+ sum(1,2,3,4));
-        
-
+               
                
          }
 }
