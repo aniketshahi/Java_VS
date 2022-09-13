@@ -20,7 +20,8 @@ public class Varargs {
         }
          public static void main(String[] args)
          {
-               Scanner sc  =new Scanner(System.in);
+               try (Scanner sc = new Scanner(System.in)) {
+            }
                //System.out.println("Welocome");
                System.out.println("The sum of a and b is:"+ sum(1,2));
                System.out.println("The sum of a,b and c is:"+ sum(1,2,3));

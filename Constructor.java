@@ -1,6 +1,5 @@
 import java.util.Scanner;
 class MymainEmployee{
-     private int id;
      private String name;
 
      public String getNmae()
@@ -16,6 +15,7 @@ public class Constructor {
         
          public static void main(String[] args)
          {
-               Scanner sc  =new Scanner(System.in);
+               try (Scanner sc = new Scanner(System.in)) {
+               }
          }
 }
