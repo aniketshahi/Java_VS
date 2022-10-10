@@ -2,20 +2,29 @@ import java.util.Scanner;
 
 public class Atm {
 
-    static void Cash() {
+    static double Cash() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Withdraw amount:");
-        int wamt = sc.nextInt();
+        System.out.print("Enter Withdraw amount:");
+        double wamt = sc.nextDouble();
 
-        
+        return wamt;
+
     }
 
-     public static double balance()  {
-            Cash obj=new Cash();
-            double balance = 1000 +obj.wamt;;
-            System.out.println(balance);
-    
-           
+    public static double balance(double wamt) {
+
+        double balance = 1000 + wamt;
+        System.out.print(balance);
+        return balance;
+
+    }
+
+    public static void checkwithraw(double wamt, double balance) {
+        if (balance > wamt) {
+            System.out.println("Please wait for cash\n Please collect cash\n Thank you");
+
+        } else
+            System.out.println("Not Enough Money");
     }
 
     public static void main(String[] args) {
@@ -29,12 +38,13 @@ public class Atm {
             int fun1 = sc.nextInt();
             if (fun1 == 1) {
                 Cash();
+                checkwithraw(Cash(),balance());
                 System.out.println("1.Exit\n2.Show Balance");
                 int bal = sc.nextInt();
                 if (bal == 1) {
                     System.out.println("Thank you for using atm");
                 } else if (bal == 2) {
-                    double c = balance();
+                    double c = balance(bal);
                     System.out.println(c);
                 }
             }
