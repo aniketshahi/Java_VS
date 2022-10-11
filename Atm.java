@@ -11,6 +11,10 @@ public class Atm {
 
     }
 
+    public static double bal(double wamt) {
+        return wamt;
+    }
+
     public static double balance(double wamt) {
 
         double balance = 1000 + wamt;
@@ -38,7 +42,8 @@ public class Atm {
             int fun1 = sc.nextInt();
             if (fun1 == 1) {
                 Cash();
-                checkwithraw(Cash(),balance());
+                bal();
+                checkwithraw(Cash(), balance());
                 System.out.println("1.Exit\n2.Show Balance");
                 int bal = sc.nextInt();
                 if (bal == 1) {
