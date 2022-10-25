@@ -24,7 +24,6 @@ public class At {
             } else if (fun1 == 2) {
                 System.out.println("Enter amount:");
                 double fun3 = sc.nextDouble();
-                double fun4 = fun3 + bal;
                 System.out.println("Amount has been added");
             }
 
