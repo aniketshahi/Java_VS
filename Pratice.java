@@ -1,4 +1,9 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
+
+import javax.xml.parsers.ParserConfigurationException;
 
 public class Pratice {
     // // addition using add method
@@ -148,29 +153,60 @@ public class Pratice {
     // // super keyword
 
     // static class superclass{
-    //       int x=50;
+    // int x=50;
     // }
     // static class subclass extends superclass{
-    //     int x=90;
-    //     void show(){
-    //         System.out.println("without super "+x);
-    //     }
-    //     void show2(){
-    //         System.out.println("with super "+super.x);
-    //     }
+    // int x=90;
+    // void show(){
+    // System.out.println("without super "+x);
+    // }
+    // void show2(){
+    // System.out.println("with super "+super.x);
+    // }
     // }
     // public static void main(String[] args) {
-    //     subclass obj =new subclass();
-    //     obj.show();
-    //     obj.show2();
+    // subclass obj =new subclass();
+    // obj.show();
+    // obj.show2();
 
     // }
 
     // //Abstarct class and abstract method
 
-    public static void main(String[] args) {
+    // static abstract class shape {
+    //     abstract int area();
+    // }
+    // static class rectangle extends shape{
+    //   int area(){
+    //     int l=0,b=0;
+    //     System.out.print("Enter length: ");
+    //     BufferedReader obj=new BufferedReader(new InputStreamReader(System.in));
+    //     try {
+    //         l=Integer.parseInt(obj.readLine());
+    //     } catch (NumberFormatException | IOException e1) {
+        
+    //         e1.printStackTrace();
+    //     }
+    //     System.out.print("Enter breadth:");
+    //    try {
+    //     b=Integer.parseInt(obj.readLine());
+    // } catch (NumberFormatException | IOException e) {
        
+    //     e.printStackTrace();
+    // }
+      
+       
+    //     return l*b;
+    //   }
+    // }
+    // public static void main(String[] args) {
+    //  rectangle obj =new rectangle();
+    
+    //  System.out.println("Area:"+obj.area());
+    // }
 
-    }
+
+    
+    
 
 }
