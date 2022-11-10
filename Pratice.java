@@ -146,7 +146,30 @@ public class Pratice {
     // }
 
     // // super keyword
+
+    // static class superclass{
+    //       int x=50;
+    // }
+    // static class subclass extends superclass{
+    //     int x=90;
+    //     void show(){
+    //         System.out.println("without super "+x);
+    //     }
+    //     void show2(){
+    //         System.out.println("with super "+super.x);
+    //     }
+    // }
+    // public static void main(String[] args) {
+    //     subclass obj =new subclass();
+    //     obj.show();
+    //     obj.show2();
+
+    // }
+
+    // //Abstarct class and abstract method
+
     public static void main(String[] args) {
+       
 
     }
 
