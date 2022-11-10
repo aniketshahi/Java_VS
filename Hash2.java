@@ -31,7 +31,8 @@ class Hash2 {
         // String Name;
         // ht1=Number, Name
         System.out.println("Enter your name:");
-        String Name01=userName.nextline();
+        Object userName;
+        String Name01=((Object) userName).nextline();
         User name1=new User(11,"Sarang");
         User name2=new User(12,"Sarang");
         User name3=new User(13,"Sarang");

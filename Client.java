@@ -15,7 +15,7 @@ public class Client {
             System.out.println("Enter the PNR NO: ");
             pnr = Integer.parseInt(br.readLine());
             out.flush();
-            out.writeBytes("".valueOf(pnr));
+            out.writeBytes(String.valueOf(pnr));
             out.write(10);
             System.out.println("PNRNo: " + in.readLine());
             System.out.println("SOURCE : " + in.readLine());
