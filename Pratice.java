@@ -89,32 +89,64 @@ public class Pratice {
     // }
 
     // // polymorphism(method over riding)
- 
+
     // static class superclass {
-    //     void print() {
-    //         System.out.println("super class");
-    //     }
+    // void print() {
+    // System.out.println("super class");
+    // }
     // }
 
     // static class subclass extends superclass {
-    //     @Override
-    //     void print() {
-    //         System.out.println("sub class");
-    //     }
+    // @Override
+    // void print() {
+    // System.out.println("sub class");
+    // }
     // }
 
     // public static void main(String[] args) {
-    //     superclass obj = new superclass();
-    //     obj.print();
-    //     obj = new subclass();
-    //     obj.print();
+    // superclass obj = new superclass();
+    // obj.print();
+    // obj = new subclass();
+    // obj.print();
 
     // }
 
     // //Final Keyword
+    // static class FinalKeyword {
+    // final int CONSTANT = 6;
+    // }
 
+    // public static void main(String[] args) {
+    // FinalKeyword obj = new FinalKeyword();
+
+    // }
+    // // Final mwthod
+    // static class finalmethod{
+    // void method1(){
+    // System.out.println("Super class method 1");
+    // }
+    // final void method2(){
+    // System.out.println("Super class method 2");
+    // }
+    // }
+    // static class subclass extends finalmethod{
+    // @Override
+    // void method1() {
+
+    // super.method1();
+    // }
+    // void method2(){ //cananot override final method
+
+    // }
+    // }
+    // public static void main(String[] args) {
+    // subclass obj=new subclass();
+    // obj.method1();
+
+    // }
+
+    // // super keyword
     public static void main(String[] args) {
-       
 
     }
 
