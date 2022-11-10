@@ -88,4 +88,34 @@ public class Pratice {
     // d.printMessage();
     // }
 
+    // // polymorphism(method over riding)
+ 
+    // static class superclass {
+    //     void print() {
+    //         System.out.println("super class");
+    //     }
+    // }
+
+    // static class subclass extends superclass {
+    //     @Override
+    //     void print() {
+    //         System.out.println("sub class");
+    //     }
+    // }
+
+    // public static void main(String[] args) {
+    //     superclass obj = new superclass();
+    //     obj.print();
+    //     obj = new subclass();
+    //     obj.print();
+
+    // }
+
+    // //Final Keyword
+
+    public static void main(String[] args) {
+       
+
+    }
+
 }
