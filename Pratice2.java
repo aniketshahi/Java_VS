@@ -212,3 +212,71 @@ import java.util.Scanner;
 
 //     }
 // }
+
+//THraed by implementing interface
+
+// class myThread implements Runnable {
+//     public void run() {
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+//         System.out.println("This is a thread");
+
+//     }
+// }
+
+// class myThread1 implements Runnable {
+//     public void run() {
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//         System.out.println("This is a thread not a threat");
+//     }
+// }
+
+// public class Pratice2 {
+//     public static void main(String[] args) {
+//         myThread t1 = new myThread();
+//         Thread t3 = new Thread(t1);
+
+//         myThread1 t2 = new myThread1();
+//         Thread t4 = new Thread(t2);
+//         t3.start();
+//         t4.start();
+
+//     }
+// }
