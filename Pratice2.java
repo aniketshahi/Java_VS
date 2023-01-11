@@ -1,3 +1,6 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 // public class Pratice2{
 //     public static void main(String[] args){
@@ -140,4 +143,72 @@ import java.util.Scanner;
 //     }
 // }
 
+//// Exception handling
 
+// public class Pratice2 {
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         System.out.print("Enter number 1:");
+//         int a=sc.nextInt();
+//         System.out.print("Enter number 2:");
+//         int b=sc.nextInt();
+//         try{
+//         int c=a/b;
+//         System.out.println("Division of Number 1 and number 2 is:"+c);
+//         } catch(Exception e){
+//              System.out.println("ERROR reason:"+e);
+//         }
+
+//     }
+// }
+
+//File handling
+
+//public class Pratice2 {
+// public static void main(String[] args) throws IOException {
+// File myfile=new File("Abc.txt");
+// myfile.createNewFile();
+
+// FileWriter myFileWriter=new FileWriter("abc.txt");
+// myFileWriter.write("This is it");
+// myFileWriter.close();
+
+// File myFile=new File("abc.txt");
+// Scanner sc=new Scanner(myFile);
+// while(sc.hasNextLine()){
+// String line=sc.nextLine();
+// System.out.println(line);
+// }
+// sc.close();
+// if(myFile.delete()){
+// System.out.println("File deleted");
+// }
+// }
+//}
+
+//Threads by extending thread class
+
+// class Mythread extends Thread {
+//     public void run() {
+//         while (true) {
+//             System.out.println("This is java thread");
+//             System.out.println("I am happy");
+//         }
+//     }
+// }
+// class Mythread1 extends Thread {
+//     public void run() {
+//         while (true) {
+//             System.out.println("This is java thread1");
+//             System.out.println("I am happy2.0");
+//         }
+//     }
+// }
+
+// public class Pratice2 {
+//     public static void main(String[] args) {
+//         Mythread obj=new Mythread();
+//         obj.run();
+
+//     }
+// }
