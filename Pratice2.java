@@ -14,6 +14,8 @@ import java.util.Scanner;
 // }
 //methods 
 
+import javax.swing.JFrame;
+
 // public class Pratice2 {
 //     int logic(int a, int b) {
 
@@ -277,6 +279,32 @@ import java.util.Scanner;
 //         Thread t4 = new Thread(t2);
 //         t3.start();
 //         t4.start();
+
+//     }
+// }
+
+//AWT 
+// import java.awt.*;
+// public class Pratice2{
+
+//     public static void main(String[] args){
+//          Frame f=new Frame();
+//          f.setVisible(true);
+//          f.setSize(400,300);
+//          f.setTitle("Aniket");
+//     }
+// }
+
+//Swing
+// import javax.swing.*;
+// public class Pratice2 {
+//     public static void main(String[] args) {
+//         JFrame j=new JFrame();
+//         j.setVisible(true);
+//         j.setSize(500,300);
+//         j.setTitle("Aniket");
+//         ImageIcon image=new ImageIcon("a.jpg");
+//         j.setIconImage(image.getImage());
 
 //     }
 // }
