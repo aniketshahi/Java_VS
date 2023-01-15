@@ -295,16 +295,16 @@ import javax.swing.JFrame;
 //     }
 // }
 
-//Swing
-// import javax.swing.*;
-// public class Pratice2 {
-//     public static void main(String[] args) {
-//         JFrame j=new JFrame();
-//         j.setVisible(true);
-//         j.setSize(500,300);
-//         j.setTitle("Aniket");
-//         ImageIcon image=new ImageIcon("a.jpg");
-//         j.setIconImage(image.getImage());
+Swing
+import javax.swing.*;
+public class Pratice2 {
+    public static void main(String[] args) {
+        JFrame j=new JFrame();
+        j.setVisible(true);
+        j.setSize(500,300);
+        j.setTitle("Aniket");
+        ImageIcon image=new ImageIcon("a.jpg");
+        j.setIconImage(image.getImage());
 
-//     }
-// }
+    }
+}
